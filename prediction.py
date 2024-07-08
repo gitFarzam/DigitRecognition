@@ -55,7 +55,7 @@ def new_sample(image_path:str):
 
     gm = GrayModifier(0.3)
     image = gm(image)
-    plt.imshow(image.squeeze(0) , cmap='gray');plt.show()
+    # plt.imshow(image.squeeze(0) , cmap='gray');plt.show()
 
     segmented_images = segmenter(image.squeeze(dim=0))
 
@@ -100,5 +100,3 @@ def new_sample(image_path:str):
     plt.show()
 
 
-image_path = 'data/sample/numbers6.jpg'
-new_sample(image_path)

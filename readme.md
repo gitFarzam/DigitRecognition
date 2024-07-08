@@ -19,13 +19,11 @@ This is a simple program made using [PyTorch](https://pytorch.org) for recognizi
 * `os`
 
 ## **Dataset**
-The dataset was downloaded from [Kaggle](https://www.kaggle.com/datasets/jcprogjava/handwritten-digits-dataset-not-in-mnist) and is provided by [JC-ProgJava](https://github.com/JC-ProgJava/Handwritten-Digit-Dataset). You can find the repository [here](https://github.com/JC-ProgJava/Handwritten-Digit-Dataset) and the license [here](https://github.com/JC-ProgJava/Handwritten-Digit-Dataset/blob/main/LICENSE.md). 
+The dataset with name ***Handwritten Digits Dataset (not in MNIST)*** was downloaded from [Kaggle](https://www.kaggle.com/datasets/jcprogjava/handwritten-digits-dataset-not-in-mnist) and is provided by [JC-ProgJava](https://github.com/JC-ProgJava/Handwritten-Digit-Dataset). You can find the repository [here](https://github.com/JC-ProgJava/Handwritten-Digit-Dataset) and the license [here](https://github.com/JC-ProgJava/Handwritten-Digit-Dataset/blob/main/LICENSE.md). 
 
 This dataset is used for educational purposes. If using this dataset violates any law, please let me know.
 
 ### Dataset Citation
-
-Dataset Citation
 
 ```bibtex
 @misc{jc-progjava_2021,
@@ -38,11 +36,10 @@ Dataset Citation
 }
 ```
 
-Dataset DOI Citation
+DOI Citation
 ```
 10.34740/kaggle/ds/1090726
 ```
-
 
 
 ## **Repository Features**
@@ -53,6 +50,12 @@ Dataset DOI Citation
 * Making the program easy to modify with a configuration file.
 * Using the model for predictions, including some simple image segmentation techniques to predict digits in various images.
 * Implementing simple anomaly detection techniques to ignore non-digit objects in predictions.
+
+## `models_archive` Directory
+* `model_-1.pth`: trained model by using the whole dataset.
+* `model_2000.pth`: trained model by using a subset of 2000 samples.
+* `model_5000.pth`: trained model by using a subset of 5000 samples.
+
 
 ## **Challenges**
 One challenge in image segmentation is using a simple manual grayscale modifier to make digits clear for segmentation. This modification involves adjusting a threshold, with different threshold values producing different results. For example:
