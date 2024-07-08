@@ -5,6 +5,13 @@
 ## **Description**
 This is a simple program made using [PyTorch](https://pytorch.org) for recognizing handwritten digits.
 
+## **How to use?**
+Use `main.py`, replace your image path with the default and run the code.
+
+> default: `image_path = 'data/sample/numbers6.jpg'`
+
+> your image: `image_path = 'you_image_path'`
+
 ## Programming Language
 * `Python`
 
