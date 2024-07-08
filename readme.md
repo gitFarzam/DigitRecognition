@@ -3,7 +3,7 @@
 ![img](readme_files/image_1.png)
 
 ## **Description**
-This is a simple program made using [PyTorch](https://pytorch.org) for detecting handwritten digits.
+This is a simple program made using [PyTorch](https://pytorch.org) for recognizing handwritten digits.
 
 ## Programming Language
 * `Python`
@@ -66,4 +66,4 @@ Threshold = `0.6`:
 There are ways to improve this, such as normalizing tensor values and checking and linking results with/to `softmax` output. These improvements may be included in future updates.
 
 ## **Final Note**
-This is a simple neural network project for educational purposes. Better prediction requires a larger dataset and more advanced image segmentation techniques to detect digits accurately and ignore anomalies.
+This is a simple neural network project for educational purposes. Better prediction requires a larger dataset and more advanced image segmentation techniques to recognize digits accurately and ignore anomalies.
