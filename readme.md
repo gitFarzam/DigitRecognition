@@ -27,7 +27,7 @@ This dataset is used for educational purposes. If using this dataset violates an
 
 Dataset Citation
 
-```
+```bibtex
 @misc{jc-progjava_2021,
     title={Handwritten Digits Dataset (not in MNIST)},
     url={https://www.kaggle.com/ds/1090726},
